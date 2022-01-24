@@ -1,0 +1,12 @@
+{
+	"name":"Heroku Connect Demo",
+	"description":"Heroku connect sample app for demo",
+	"repository":"https://github.com/kapilmsingh/MerckConnectDemo",
+	"success_url":"/setup.html",
+	"env":{
+		"PGSSLMODE":{
+			"description":"require SSL for postgress",
+			"value":"require"
+		}	
+	}
+}
